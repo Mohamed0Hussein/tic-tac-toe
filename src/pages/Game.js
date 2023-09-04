@@ -86,8 +86,8 @@ const Game = () => {
         };
     
   return (
-    <div className='flex flex-col items-center my-20'>
-        <div className='board w-96 h-96 grid  grid-cols-3 grid-rows-3'>
+    <div className='flex flex-col items-center'>
+        <div className='board w-screen h-screen grid  grid-cols-3 grid-rows-3'>
             <div id={1} className='border border-black border-t-0 border-l-0' onClick={(e) => {cellClicked({x:0,y:0})}}><Cell>{game[0][0]}</Cell></div>
             <div id={2} className='border border-black border-t-0' onClick={(e) => {cellClicked({x:0,y:1})}}><Cell>{game[0][1]}</Cell></div>
             <div id={3} className='border border-black border-t-0 border-r-0' onClick={(e) => {cellClicked({x:0,y:2})}}><Cell>{game[0][2]}</Cell></div>
