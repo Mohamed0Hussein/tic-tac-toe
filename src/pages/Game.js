@@ -77,7 +77,7 @@ const Game = () => {
                 alert(`${current_Player} has WON 🎊🎊🎊`)
                 setIsGameOver(true)
             }
-            else if(turnsCount === 9){
+            else if(turnsCount === 8){
                 alert(`TIEEEEEEEEEEEEEEEE ⛔⛔`)
                 setIsGameOver(true)
             }
